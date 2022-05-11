@@ -1,0 +1,17 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin scrollable {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@mixin box-shadow-background {
+  box-shadow: 0px 0px 10px rgba(112, 112, 112, 0.26);
+}
+
+@mixin box-shadow-secondary {
+  box-shadow: 0px 0px 3px $secondary-accent-color;
+}
