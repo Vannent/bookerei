@@ -3,4 +3,4 @@
 
 [Live Preview](https://bookerei.netlify.app)
 
-App created with React, SASS, NextJS, Sanity and Stripe.
+App created with React, SCSS, NextJS, Sanity and Stripe.
