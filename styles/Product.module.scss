@@ -1,0 +1,43 @@
+@import "./colors";
+@import "./mixins";
+
+.productCard {
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+  color: $font-color;
+
+  img {
+    height: 250px;
+    width: 165px;
+  }
+
+  .productGenre {
+    color: $secondary-accent-color;
+    text-transform: lowercase;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .productName {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .productAuthor {
+    margin: 0;
+    letter-spacing: 0.3px;
+  }
+
+  .productPrice {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+}
+
+.productCard:hover {
+  transform: scale(1.05, 1.05);
+}

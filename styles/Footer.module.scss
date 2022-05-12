@@ -1,0 +1,15 @@
+@import "./colors";
+@import "./mixins";
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 60%;
+  font-size: 0.6rem;
+}

@@ -5,6 +5,9 @@
   @include flex-center();
   justify-content: center;
   gap: 10vw;
+  max-width: 1000px;
+  padding-bottom: 20px;
+  box-shadow: 0 3px 2px -2px rgba(112, 112, 112, 0.26);
   .heroBannerContainerGenre {
     font-size: 1.2rem;
     font-weight: 500;
@@ -46,6 +49,7 @@
   }
 
   button.outlined {
+    border: 1px solid $accent-color;
     margin-top: 1.3rem;
     color: $font-color;
     font-weight: bold;
