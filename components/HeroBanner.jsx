@@ -13,7 +13,7 @@ const HeroBanner = ({ heroBanner }) => {
         <div className={styles.heroBannerContainerDescription}>
           {heroBanner.desc}
         </div>
-        <Link href="{`/product/${heroBanner.product}`}">
+        <Link href={`/product/outliers-malcolm-gladwell`}>
           <Button className={styles.contained} variant="contained">
             {heroBanner.buttonText}
           </Button>
